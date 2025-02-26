@@ -1,0 +1,42 @@
+# Ignore dataset (data mentah dan hasil preprocessing)
+dataset/
+
+# Ignore trained models (model yang sudah dilatih)
+saved_models/
+*.pkl
+*.h5
+*.pth
+*.onnx
+*.tflite
+
+# Ignore tokenizer jika berbasis teks
+tokenizer.json
+
+# Ignore cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs dan file sementara
+*.log
+logs/
+checkpoints/
+tensorboard_logs/
+outputs/
+results/
+
+# Ignore virtual environment (jika ada)
+venv/
+env/
+
+# Ignore file konfigurasi sensitif (API key, credentials, dsb.)
+.env
+config.json
+secrets.json
+
+# Ignore dependencies dari deployment (jika diinstal secara lokal)
+deployment/node_modules/
+deployment/requirements.txt.lock  # Jika ada versi lock untuk dependencies
+
+# Ignore Docker build files yang tidak perlu
+deployment/.dockerignore
