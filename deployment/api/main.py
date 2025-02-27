@@ -37,3 +37,7 @@ async def predict(input_data: TextInput):
 
     # Kembalikan hasil prediksi
     return {"prediction": predicted_class, "confidence": confidence}
+
+# Untuk running = uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+# http://127.0.0.1:8000/predict
+# exec bash = Untuk menghentikan .venv di terminal
