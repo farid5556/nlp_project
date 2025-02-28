@@ -1,0 +1,7 @@
+tensorflow==2.18.0
+transformers==4.49.0
+datasets==3.3.2
+fastapi==0.115.8
+uvicorn==0.34.0
+pydantic==2.10.6
+import-ipynb==0.2
